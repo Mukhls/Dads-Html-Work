@@ -208,20 +208,5 @@ body {
 .GRB2DropDown:hover .GRB2DropContent {display: inline-block;}
 .GRB2DropDown:hover .GRB2Link {color: skyblue;}
 
-.EP_H1 {
-  color: skyblue
-}
 
-.UnderTopDiv {
-  margin-left: 0cm;
-  font-family: cursive;
-  font-size: 24px
-}
-
-.ContactSalesButton {
-  background-color: skyblue;
-  width: 120px;
-  height: 40px;
-  border-radius: 50px
-}
 
