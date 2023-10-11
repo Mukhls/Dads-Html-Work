@@ -2,13 +2,14 @@
     
 }
 body {
-    
+    background-color: white
 }
 .TopDIV {
     vertical-align: top;
     height: 1.9cm;
     margin-top: none;
     width: 40m;
+   font-size: 16px
     
     
 }
@@ -20,52 +21,59 @@ body {
     display: inline-flex;
     padding: 15px;
     margin: 15px;
+   font-size: 16px
   
 }
 .SMEul {
     display: inline-flex;
     padding: 15px;
     margin: 5px;
+  font-size: 16px
 }
 .Personalul {
     display: inline-flex;
     padding: 15px;
     margin: 5px;
+  font-size: 15px
 }
 .Resourcesul {
     display: inline-flex;
     padding: 15px;
     margin: 5px;
+  font-size: 16px
 }
 .Developerul {
     display: inline-flex;
     padding: 15px;
     margin: 5px;
+  font-size: 16px
 }
 .Companyul {
     display: inline-flex;
     padding: 15px;
     margin: 5px;
+  font-size: 16px
 }
+
 .TD {
     margin-bottom: none;
 }
 .droplink:hover {
-  color: aqua
+  color: skyblue
 }
 .droplink2:hover {
-  color: aqua
+  color: skyblue
 }
 .droplink3:hover {
-  color: aqua
+  color: skyblue
 }
 .droplink4:hover {
-  color: aqua
+  color: skyblue
 }
 .droplink5:hover {
-  color: aqua
+  color: skyblue
 }.droplink6:hover {
-  color: aqua
+  color: skyblue
 }
 .droplink {
    padding: 16px;
@@ -96,6 +104,15 @@ body {
    padding: 16px;
   font-size: 16px;
   border: none;  
+}
+.PaymentSoluLink:hover{
+  color: skyblue
+}
+.GRBLink:hover{
+  color: skyblue
+}
+.StaaLink:hover{
+  color: skyblue
 }
 .drop-downcontent{
   display: none;
@@ -140,9 +157,71 @@ body {
 .Developerul:hover .drop-downcontent5 {display: inline-block;}
 .Companyul:hover .drop-downcontent6 {display: inline-block;}
 
-.EnterPriseul:hover .droplink {color: aqua;}
-.SMEul:hover .droplink2 {color: aqua;}
-.Personalul:hover .droplink3 {color: aqua;}
-.Resourcesul:hover .droplink4 {color: aqua;}
-.Developerul:hover .droplink5 {color: aqua;}
-.Companyul:hover .droplink6 {color: aqua;}
+.EnterPriseul:hover .droplink {color: skyblue;}
+.SMEul:hover .droplink2 {color: skyblue;}
+.Personalul:hover .droplink3 {color: skyblue;}
+.Resourcesul:hover .droplink4 {color: skyblue;}
+.Developerul:hover .droplink5 {color: skyblue;}
+.Companyul:hover .droplink6 {color: skyblue;}
+
+.PaySolDropContent{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1; 
+  text-align: center
+}
+
+.PaySolutionDropDown:hover .PaySolDropContent {display: inline-block;}
+.PaySolutionDropDown:hover .PaymentSoluLink {color: skyblue;}
+
+.GRBDropContent{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1; 
+  text-align: center
+}
+
+.GRBDropDown:hover .GRBDropContent {display: inline-block;}
+.GRBDropDown:hover .GRBLink {color: skyblue;}
+
+.StaaDropContent{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1; 
+  text-align: center
+}
+
+.StaaDropDown:hover .StaaDropContent {display: inline-block;}
+.StaaDropDown:hover .StaaLink {color: skyblue;}
+
+.GRB2DropContent{
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1; 
+  text-align: center
+}
+
+.GRB2DropDown:hover .GRB2DropContent {display: inline-block;}
+.GRB2DropDown:hover .GRB2Link {color: skyblue;}
+
+.EP_H1 {
+  color: skyblue
+}
+
+.UnderTopDiv {
+  margin-left: 0cm;
+  font-family: cursive;
+  font-size: 24px
+}
+
+.ContactSalesButton {
+  background-color: skyblue;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px
+}
+
